@@ -33,6 +33,7 @@ export default {
   ** Nuxt.js dev-modules
   */
   buildModules: [
+    '@nuxtjs/vuetify',
   ],
   /*
   ** Nuxt.js modules
@@ -57,5 +58,10 @@ export default {
     */
     extend (config, ctx) {
     }
+  },
+
+  env: {
+    title: 'Laranuxt', // The App title
+    baseUrl: new RegExp('localhost:8000'), // The API base url
   }
 }
