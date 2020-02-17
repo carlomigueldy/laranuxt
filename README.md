@@ -13,4 +13,7 @@ Hehe
 ```
 sudo chown -R $USER:$USER /var/www/$YOUR_DIR_NAME/$YOUR_FILE_NAME
 sudo chmod 777 -R /var/www
+
+sudo chown -R carlomigueldy:carlomigueldy /var/www/application
+sudo chmod 777 -R /var/www/application
 ```
